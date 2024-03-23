@@ -154,6 +154,7 @@ public class ViewMediaActivity extends AppCompatActivity {
             long id = intent.getLongExtra(DownloadManager.EXTRA_DOWNLOAD_ID, -1);
             if (id == downloadID) {
                 Toast.makeText(ViewMediaActivity.this, "Đã lưu thành công", Toast.LENGTH_SHORT).show();
+
             }
         }
     };
