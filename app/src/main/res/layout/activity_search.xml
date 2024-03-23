@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_item"
+    android:orientation="vertical"
+    tools:context=".activity.SearchActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            app:tint="@color/black"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_view_friend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_search_message"
+            android:queryHint="Tìm kiếm thứ bạn cần"
+            android:textColorHint="@color/white"
+            app:defaultQueryHint="Tìm kiếm thứ bạn cần"
+            app:iconifiedByDefault="false"
+            app:marginTopSystemWindowInsets="true"
+            app:queryBackground="@null"
+            tools:ignore="MissingClass" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txt_count_messages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_search_friend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

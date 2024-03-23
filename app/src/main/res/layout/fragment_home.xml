@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_item"
+    tools:context=".fragment.HomeFragment">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refesh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_avatar"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@color/black"
+                    app:riv_corner_radius="20dp" />
+
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:id="@+id/btn_search"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="20dp"
+                    android:src="@drawable/baseline_search_24" />
+
+                <ImageView
+                    android:id="@+id/btn_notification"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="20dp"
+                    android:src="@drawable/notidication_icon"
+                    app:tint="@color/black" />
+
+                <ImageView
+                    android:id="@+id/linear_message"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/messages_icon"
+                    app:tint="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_no_post"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:gravity="center"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hãy kết bạn bè để xem thêm bài viết"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Bạn sẽ xem được ảnh và thông tin cập nhật từ bạn bè khi họ chấp nhận lời mời kết bạn."
+                    android:textColor="@color/gray_text"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/btn_add_friend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_senmess"
+                    android:padding="10dp"
+                    android:text="TÌM BẠN BÈ"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="10dp"
+                android:background="@color/gray_item"
+                android:visibility="gone"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        </LinearLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</FrameLayout>

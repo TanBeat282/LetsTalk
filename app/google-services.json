@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "948852651831",
+    "project_id": "letstalk-3d1c5",
+    "storage_bucket": "letstalk-3d1c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948852651831:android:e04cc5da2751a0d6daccb2",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnpLr9ZsyTdpbvEQRnDHGJnu59pWhrDfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948852651831:android:599e5581510347cedaccb2",
+        "android_client_info": {
+          "package_name": "com.example.websocket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnpLr9ZsyTdpbvEQRnDHGJnu59pWhrDfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activity.DobActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            app:tint="@color/black"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Nhập ngày sinh của bạn"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp">
+
+        <EditText
+            android:id="@+id/edtBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/background_a_message"
+            android:focusable="false"
+            android:inputType="none"
+            android:paddingStart="20dp"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/edtBirthday"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_button_verify"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tiếp tục"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
