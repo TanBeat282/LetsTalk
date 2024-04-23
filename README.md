@@ -1,10 +1,9 @@
 </div><p align="center">
   <img src="app/src/main/res/drawable/logo1.png">
 </p>
-</div><p align="center">
- ## LetsTalk - Ứng dụng Mạng Xã Hội
+<p align="center">
+    <strong style="font-size:larger;">LetsTalk - Ứng dụng Mạng Xã Hội</strong>
 </p>
-
 
 ## Mô Tả
 
