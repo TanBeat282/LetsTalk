@@ -1,6 +1,5 @@
-# LetsTalk - Ứng dụng Mạng Xã Hội
-
 ![LetsTalk](app/src/main/res/drawable/logo1.png)
+# LetsTalk - Ứng dụng Mạng Xã Hội
 
 ## Mô Tả
 
@@ -13,3 +12,4 @@ LetsTalk là một nền tảng mạng xã hội kết nối người dùng trê
 - **Trò Chuyện Realtime**: Gửi tin nhắn realtime với bạn bè thông qua websocket.
 - **Kết Bạn**: Tìm kiếm và kết bạn với những người mới trên LetsTalk.
 - **Lưu Trữ Media**: Hình ảnh và video được lưu trữ an toàn trên Firebase.
+- **Server**: Sử dụng PHP làm server cho ứng dụng https://github.com/TanBeat282/Backend_LetsTalk.git.
