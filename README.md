@@ -1,6 +1,6 @@
-<div style="text-align:center;">
-  ![[LetsTalk](https://github.com/TanBeat282/LetsTalk)](app/src/main/res/drawable/logo1.png)
-</div>
+</div><p align="center">
+  <img src="app/src/main/res/drawable/logo1.png">
+</p>
 
 # LetsTalk - Ứng dụng Mạng Xã Hội
 
