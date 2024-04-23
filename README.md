@@ -1,4 +1,7 @@
-![[LetsTalk](https://github.com/TanBeat282/LetsTalk)](app/src/main/res/drawable/logo1.png)
+<div style="text-align:center;">
+  ![[LetsTalk](https://github.com/TanBeat282/LetsTalk)](app/src/main/res/drawable/logo1.png)
+</div>
+
 # LetsTalk - Ứng dụng Mạng Xã Hội
 
 ## Mô Tả
