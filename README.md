@@ -13,3 +13,6 @@ LetsTalk là một nền tảng mạng xã hội kết nối người dùng trê
 - **Kết Bạn**: Tìm kiếm và kết bạn với những người mới trên LetsTalk.
 - **Lưu Trữ Media**: Hình ảnh và video được lưu trữ an toàn trên Firebase.
 - **Server**: Sử dụng PHP làm server cho ứng dụng https://github.com/TanBeat282/Backend_LetsTalk.git.
+
+## Chú ý 
+- **Một số tính năng chưa được hoàn thiện
