@@ -1,4 +1,4 @@
-![LetsTalk](app/src/main/res/drawable/logo1.png)
+![[LetsTalk](https://github.com/TanBeat282/LetsTalk)](app/src/main/res/drawable/logo1.png)
 # LetsTalk - Ứng dụng Mạng Xã Hội
 
 ## Mô Tả
