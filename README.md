@@ -19,4 +19,4 @@ LetsTalk là một nền tảng mạng xã hội kết nối người dùng trê
 - **Server**: Sử dụng PHP làm server cho ứng dụng https://github.com/TanBeat282/Backend_LetsTalk.git.
 
 ## Chú ý 
-- **Một số tính năng chưa được hoàn thiện
+- **Một số tính năng chưa được hoàn thiện và sẽ phát triển thêm
